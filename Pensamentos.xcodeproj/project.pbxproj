@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		ACA0A5B52059DABA003816CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0A5B42059DABA003816CE /* AppDelegate.swift */; };
-		ACA0A5B72059DABA003816CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0A5B62059DABA003816CE /* ViewController.swift */; };
+		ACA0A5B72059DABA003816CE /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0A5B62059DABA003816CE /* QuotesViewController.swift */; };
 		ACA0A5BA2059DABA003816CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA0A5B82059DABA003816CE /* Main.storyboard */; };
 		ACA0A5BC2059DABA003816CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA0A5BB2059DABA003816CE /* Assets.xcassets */; };
 		ACA0A5BF2059DABA003816CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA0A5BD2059DABA003816CE /* LaunchScreen.storyboard */; };
+		ACA0A5C72059E249003816CE /* configViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0A5C62059E249003816CE /* configViewController.swift */; };
+		ACA0A5C92059E25C003816CE /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0A5C82059E25C003816CE /* SaveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACA0A5B12059DABA003816CE /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA0A5B42059DABA003816CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACA0A5B62059DABA003816CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACA0A5B62059DABA003816CE /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		ACA0A5B92059DABA003816CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACA0A5BB2059DABA003816CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA0A5BE2059DABA003816CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA0A5C02059DABA003816CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA0A5C62059E249003816CE /* configViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configViewController.swift; sourceTree = "<group>"; };
+		ACA0A5C82059E25C003816CE /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				ACA0A5B42059DABA003816CE /* AppDelegate.swift */,
-				ACA0A5B62059DABA003816CE /* ViewController.swift */,
+				ACA0A5B62059DABA003816CE /* QuotesViewController.swift */,
 				ACA0A5B82059DABA003816CE /* Main.storyboard */,
 				ACA0A5BB2059DABA003816CE /* Assets.xcassets */,
 				ACA0A5BD2059DABA003816CE /* LaunchScreen.storyboard */,
 				ACA0A5C02059DABA003816CE /* Info.plist */,
+				ACA0A5C62059E249003816CE /* configViewController.swift */,
+				ACA0A5C82059E25C003816CE /* SaveViewController.swift */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA0A5B72059DABA003816CE /* ViewController.swift in Sources */,
+				ACA0A5B72059DABA003816CE /* QuotesViewController.swift in Sources */,
+				ACA0A5C92059E25C003816CE /* SaveViewController.swift in Sources */,
+				ACA0A5C72059E249003816CE /* configViewController.swift in Sources */,
 				ACA0A5B52059DABA003816CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

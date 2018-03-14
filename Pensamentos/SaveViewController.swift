@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SaveViewController.swift
 //  Pensamentos
 //
 //  Created by Usuário Convidado on 14/03/18.
@@ -8,18 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SaveViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
+        // Dispose of any resources that can be recreated.
     }
+    
 
+    
 
 }
-
